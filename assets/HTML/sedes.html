@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedes - Navio Negreiro</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Botão de tema -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="../img/LOGO_ORIGINAL_NAVIO_NEGREIRO-removebg-preview.png" alt="Logo Navio Negreiro" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Navio Negreiro</h1>
+                        <p>Projeto Social de Capoeira</p>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav class="nav" id="main-nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="../../index.html" class="nav-link">Início</a></li>
+                <li><a href="nossoprojeto.html" class="nav-link">Sobre o Projeto</a></li>
+                <li><a href="proposito.html" class="nav-link">Nosso Propósito</a></li>
+                <li><a href="eventos.html" class="nav-link">Eventos</a></li>
+                <li><a href="sedes.html" class="nav-link active">Sedes</a></li>
+                <li><a href="instrutores.html" class="nav-link">Instrutores</a></li>
+                <li><a href="contribua.html" class="nav-link cta">Fortaleça nossa missão!</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero da Página -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title">Nossas Sedes</h1>
+                <p class="page-subtitle">Encontre a sede mais próxima de você e venha fazer parte da nossa família</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sede Principal -->
+    <section class="main-location">
+        <div class="container">
+            <div class="location-content">
+                <div class="location-info">
+                    <h2 class="section-title">Sede Principal</h2>
+                    <div class="location-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Praia Linda, s/n<br>Posto integrado de segurança</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horários de Funcionamento</h4>
+                                <p>Quarta: 19:00 - 20:00<br>
+                                   Sábados: 08:00 - 16:00<br>
+                                   Domingos: 08:00 - 12:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Contato</h4>
+                                <p>(21) 97619-5957<br>
+                                   <a href="mailto:migueldrd18@gmail.com">migueldrd18@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Capacidade</h4>
+                                <p>Até 50 alunos por turma<br>
+                                   Espaço amplo e ventilado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-image">
+                    <img src="../search_images/sM2XGxLyX56d.jpg" alt="Sede Principal" class="location-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outras Sedes -->
+    <section class="other-locations">
+        <div class="container">
+            <h2 class="section-title">Outras Sedes</h2>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Sede Comunitária Norte</h3>
+                        <span class="location-status active">Ativa</span>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bairro Norte, Rua das Flores, 123</span>
+                        </div>
+                        <div class="location-schedule">
+                            <h4>Horários das Aulas:</h4>
+                            <ul>
+                                <li><strong>Infantil:</strong> Terças e Quintas, 16:00 - 17:00</li>
+                                <li><strong>Juvenil:</strong> Terças e Quintas, 17:00 - 18:30</li>
+                                <li><strong>Adulto:</strong> Segundas e Quartas, 19:00 - 20:30</li>
+                            </ul>
+                        </div>
+                        <div class="location-instructor">
+                            <i class="fas fa-user"></i>
+                            <span>Instrutor: Professor João</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Sede Escola Municipal</h3>
+                        <span class="location-status active">Ativa</span>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Escola Municipal Santos Dumont</span>
+                        </div>
+                        <div class="location-schedule">
+                            <h4>Horários das Aulas:</h4>
+                            <ul>
+                                <li><strong>Infantil:</strong> Sextas, 14:00 - 15:00</li>
+                                <li><strong>Juvenil:</strong> Sextas, 15:00 - 16:30</li>
+                            </ul>
+                        </div>
+                        <div class="location-instructor">
+                            <i class="fas fa-user"></i>
+                            <span>Instrutor: Professora Maria</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Sede Centro Comunitário</h3>
+                        <span class="location-status active">Ativa</span>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Centro Comunitário da Vila</span>
+                        </div>
+                        <div class="location-schedule">
+                            <h4>Horários das Aulas:</h4>
+                            <ul>
+                                <li><strong>Adulto:</strong> Sábados, 09:00 - 11:00</li>
+                                <li><strong>Roda Livre:</strong> Domingos, 15:00 - 17:00</li>
+                            </ul>
+                        </div>
+                        <div class="location-instructor">
+                            <i class="fas fa-user"></i>
+                            <span>Instrutor: Professor Carlos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-header">
+                        <h3>Sede Praia (Temporária)</h3>
+                        <span class="location-status seasonal">Sazonal</span>
+                    </div>
+                    <div class="location-body">
+                        <div class="location-address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Praia Central - Área de Esportes</span>
+                        </div>
+                        <div class="location-schedule">
+                            <h4>Horários das Aulas:</h4>
+                            <ul>
+                                <li><strong>Todas as idades:</strong> Sábados, 07:00 - 09:00</li>
+                                <li><strong>Período:</strong> Dezembro a Março</li>
+                            </ul>
+                        </div>
+                        <div class="location-instructor">
+                            <i class="fas fa-user"></i>
+                            <span>Instrutor: Instrutora Deyva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Infraestrutura -->
+    <section class="infrastructure">
+        <div class="container">
+            <h2 class="section-title">Nossa Infraestrutura</h2>
+            <div class="infrastructure-grid">
+                <div class="infrastructure-item">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Espaços Amplos</h3>
+                    <p>Todas as nossas sedes possuem espaços amplos e ventilados, ideais para a prática da capoeira com segurança e conforto.</p>
+                </div>
+
+                <div class="infrastructure-item">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Instrumentos Musicais</h3>
+                    <p>Berimbaus, atabaques, pandeiros e agogôs disponíveis em todas as sedes para o aprendizado completo da capoeira.</p>
+                </div>
+
+                <div class="infrastructure-item">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Segurança</h3>
+                    <p>Ambientes seguros e monitorados, com primeiros socorros disponíveis e instrutores qualificados em todas as atividades.</p>
+                </div>
+
+                <div class="infrastructure-item">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-parking"></i>
+                    </div>
+                    <h3>Estacionamento</h3>
+                    <p>Estacionamento gratuito disponível na sede principal e facilidades de acesso em todas as outras localidades.</p>
+                </div>
+
+                <div class="infrastructure-item">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Vestiários</h3>
+                    <p>Vestiários limpos e organizados com chuveiros e bebedouros para o conforto dos nossos alunos.</p>
+                </div>
+
+                <div class="infrastructure-item">
+                    <div class="infrastructure-icon">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <h3>Acessibilidade</h3>
+                    <p>Comprometidos com a inclusão, nossas sedes principais possuem acesso facilitado para pessoas com mobilidade reduzida.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Chegar -->
+    <section class="directions">
+        <div class="container">
+            <div class="directions-content">
+                <div class="directions-text">
+                    <h2 class="section-title">Como Chegar</h2>
+                    <div class="directions-info">
+                        <h3>Transporte Público</h3>
+                        <p>A sede principal é facilmente acessível por transporte público. As linhas de ônibus 145, 147 e 460 param a apenas 2 quadras da nossa sede.</p>
+                        
+                        <h3>De Carro</h3>
+                        <p>Localizada no posto integrado de segurança, com fácil acesso pela Estrada do Sal. Estacionamento gratuito disponível no local.</p>
+                        
+                        <h3>A Pé ou de Bicicleta</h3>
+                        <p>Para quem mora na região de Iguaba Grande, é possível chegar facilmente a pé ou de bicicleta.</p>
+                        
+                        <div class="contact-directions">
+                            <h4>Precisa de Ajuda?</h4>
+                            <p>Entre em contato conosco para orientações específicas sobre como chegar à sede mais próxima de você.</p>
+                            <a href="mailto:migueldrd18@gmail.com" class="btn btn-primary">Entrar em Contato</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="directions-image">
+                    <img src="../search_images/p8iUXwxFLgq4.webp" alt="Localização" class="directions-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visite-nos -->
+    <section class="visit-us">
+        <div class="container">
+            <div class="visit-content">
+                <h2>Venha nos Visitar!</h2>
+                <p>Convidamos você a conhecer nossas instalações e participar de uma aula experimental gratuita. Sinta a energia da capoeira e faça parte da nossa comunidade.</p>
+                <div class="visit-buttons">
+                    <a href="eventos.html" class="btn btn-primary">Ver Próximos Eventos</a>
+                    <a href="contribua.html" class="btn btn-secondary">Agendar Visita</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../img/LOGO_ORIGINAL_NAVIO_NEGREIRO-removebg-preview.png" alt="Logo Navio Negreiro" class="footer-logo-img">
+                        <h3>Navio Negreiro</h3>
+                    </div>
+                    <p>Projeto social dedicado à preservação da cultura afro-brasileira através da capoeira.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="nossoprojeto.html">Sobre o Projeto</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="sedes.html">Sedes</a></li>
+                        <li><a href="instrutores.html">Instrutores</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Praia Linda</p>
+                        <p><i class="fas fa-phone"></i> (21) 97619-5957</p>
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:migueldrd18@gmail.com">migueldrd18@gmail.com</a></p>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Navio Negreiro - Projeto Social de Capoeira. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>
+
