@@ -156,10 +156,12 @@ themeToggle.addEventListener(\'click\', () => {
 
 **Desenvolvido com empenho para preservar a cultura da capoeira e promover transformação social**
 
-![Capoeira](https://img.shields.io/badge/Capoeira-Cultura%20Brasileira-green)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+
 ![Responsive](https://img.shields.io/badge/Responsive-Design-blue)
+![Capoeira](https://img.shields.io/badge/Capoeira-Cultura%20Brasileira-green)
 
 
