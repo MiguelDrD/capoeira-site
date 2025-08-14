@@ -27,7 +27,7 @@
     --shadow-hover: 0 5px 20px rgba(255, 255, 255, 0.15);
 }
 
-
+directions-img
 
 * {
     margin: 0;
@@ -2229,7 +2229,7 @@ img.lazy.loaded {
 }
 
 .directions-img {
-    width: 100%;
+    width: 125%;
     height: 400px;
     object-fit: cover;
     border-radius: var(--border-radius);
